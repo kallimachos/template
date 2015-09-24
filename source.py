@@ -6,4 +6,4 @@ def square(x):
 
 
 if __name__ == '__main__':
-    print square(5)
+    print(square(5))
