@@ -1,7 +1,11 @@
+#!/bin/python
+"""Example test file."""
+
 import source
 
 
 def test_square():
+    """Test square."""
     assert source.square(1) == 1
     assert source.square(2) == 4
     assert source.square(3) == 9

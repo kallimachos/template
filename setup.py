@@ -1,4 +1,5 @@
 #!/bin/python
+"""Example setup file."""
 
 from distutils.core import setup
 
