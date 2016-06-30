@@ -1,4 +1,5 @@
-#!/bin/python
+#!/bin/python3
+# coding: utf-8
 """Example source file."""
 
 
