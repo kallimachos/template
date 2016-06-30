@@ -48,10 +48,7 @@ extensions = [
 ]
 
 if spelling is not None:
-    print("Spelling imported.")
     extensions.append('sphinxcontrib.spelling')
-else:
-    print("Spelling not imported.")
 
 # Add any paths that contain templates here, relative to this directory.
 # templates_path = ['_templates']
