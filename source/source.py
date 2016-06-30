@@ -14,7 +14,7 @@ def square(x):
     >>> square(5)
     25
     """
-    return(x*x)
+    return(x * x)
 
 
 if __name__ == '__main__':
