@@ -49,9 +49,9 @@ git checkout master
 cd $STARTDIR
 echo
 if test `tput -T $TERM colors` -lt 256; then
-    echo "Docs published to http://kallimachos.github.io/$BASEDIR."
+    echo "Docs published to http://kallimachos.github.io/$BASEDIR"
 else
     tput -T $TERM setaf 2
-    echo "Docs published to http://kallimachos.github.io/$BASEDIR."
+    echo "Docs published to http://kallimachos.github.io/$BASEDIR"
     tput -T $TERM sgr0
 fi
