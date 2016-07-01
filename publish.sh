@@ -33,7 +33,7 @@ cd $DOC
 make html
 
 # move html files to root directory
-mv -fv _build/html/* ../
+mv -fv _build/html/* $GITDIR/
 
 # remove source files
 cd $GITDIR
