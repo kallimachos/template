@@ -19,7 +19,8 @@ if [ "$TRAVIS_REPO_SLUG" == "kallimachos/template" ] && \
     find * -not -name ".*" -delete
     cp -rv $HOME/html/* ./
     git add -A .
-    git commit -m "Latest doc on successful travis build $TRAVIS_BUILD_NUMBER auto-pushed to gh-pages"
+    git commit -m "Latest doc on successful travis build $TRAVIS_BUILD_NUMBER \
+                   auto-pushed to gh-pages"
     git push -fq origin gh-pages > /dev/null
 
     if test `tput -T $TERM colors` -lt 256; then
