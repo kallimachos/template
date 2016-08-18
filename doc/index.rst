@@ -9,5 +9,5 @@ Project documentation goes here.
 Code listing
 ~~~~~~~~~~~~
 
-.. automodule:: source
+.. automodule:: __init__
    :members:
