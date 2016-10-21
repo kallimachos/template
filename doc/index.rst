@@ -2,9 +2,9 @@
 Project Documentation
 =====================
 
-Project documentation goes here.
-
 *Last updated:* |today|
+
+Project documentation goes here.
 
 Code listing
 ~~~~~~~~~~~~
