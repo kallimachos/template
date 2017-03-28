@@ -21,4 +21,20 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-__version__ = '0.1.0'
+
+def square(x):
+    """Square x.
+
+    :param x: number to square
+    :type x: int
+    :returns: square of x
+    :rtype: int
+
+    >>> square(5)
+    25
+    """
+    return x * x
+
+
+if __name__ == '__main__':
+    print(square(5))

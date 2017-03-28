@@ -1,17 +1,17 @@
 #!/bin/python3
 # coding: utf-8
-"""Example test file."""
+"""Template test file."""
 
-import template
+from template import source
 
 
 def test_square():
     """Test square."""
-    assert template.square(1) == 1
-    assert template.square(2) == 4
-    assert template.square(3) == 9
-    assert template.square(4) == 16
-    assert template.square(5) == 25
+    assert source.square(1) == 1
+    assert source.square(2) == 4
+    assert source.square(3) == 9
+    assert source.square(4) == 16
+    assert source.square(5) == 25
 
 
 if __name__ == '__main__':
