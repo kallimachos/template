@@ -24,7 +24,7 @@ sys.path.insert(0, os.path.abspath('../template/'))
 
 try:
     from template import __version__
-except:
+except ImportError:
     print('Cannot load version.')
 
 # -- General configuration ------------------------------------------------
@@ -70,7 +70,10 @@ author = 'Brian Moss'
 # built documents.
 #
 # The short X.Y version.
-version = __version__
+try:
+    version = __version__
+except NameError:
+    version = '0.1'
 # The full version, including alpha/beta/rc tags.
 # release = '0'
 
