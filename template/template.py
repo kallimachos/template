@@ -1,7 +1,7 @@
 #!/bin/python3
 # coding: utf-8
 """
-Template source file.
+template source file.
 
 https://github.com/kallimachos/template
 
