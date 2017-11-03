@@ -61,7 +61,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Template'
+project = 'template'
 copyright = '2017, Brian Moss'
 author = 'Brian Moss'
 

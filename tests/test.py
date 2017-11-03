@@ -1,6 +1,6 @@
 #!/bin/python3
 # coding: utf-8
-"""Template test file."""
+"""template test file."""
 
 from template import source
 
