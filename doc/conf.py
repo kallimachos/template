@@ -40,7 +40,6 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.coverage',
     'sphinx.ext.viewcode',
-    'sphinx-prompt',
 ]
 
 if spelling is not None:
