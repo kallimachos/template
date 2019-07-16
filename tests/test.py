@@ -14,5 +14,5 @@ def test_square():
     assert template.square(5) == 25
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     pass
